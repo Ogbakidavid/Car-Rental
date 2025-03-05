@@ -85,7 +85,6 @@ const sr = ScrollReveal({
     distance: '40px',
     duration: 1000,
     delay: 400,
-    reset: true,
 });
 
 sr.reveal(`h1, .story-title, .download__img, .news-title`);
