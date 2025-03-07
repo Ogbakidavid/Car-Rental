@@ -848,6 +848,7 @@ img {
 .social__links {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
     cursor: pointer;
 }
