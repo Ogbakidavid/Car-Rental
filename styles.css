@@ -803,8 +803,8 @@ img {
 }
 
 .footer__container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 2rem;
@@ -855,8 +855,8 @@ img {
 
 .social__links .links {
     border: 3px solid var(--text-light);
-    padding: 10px 15px;
-    font-size: 1.5rem;
+    padding: 1rem 1.4rem;
+    font-size: 2rem;
     font-weight: 600;
     border-radius: 100%;
     transition: border .6s ease;
@@ -919,6 +919,13 @@ img {
         line-height: 40px;
     }
 
+    .footer__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* .social__content {
+        margin-top: 2rem;
+    } */
 }
 
 
